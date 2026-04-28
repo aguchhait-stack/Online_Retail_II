@@ -1,5 +1,23 @@
+# Database files (large files)
+*.db
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+
+# Mac system files
 .DS_Store
-.env
+.AppleDouble
+data.nosync/.DS_Store
+
+# Jupyter
 .ipynb_checkpoints/
-.Rhistory
-venv/
+*.ipynb_checkpoints
+
+# Large data files (keep only the main zip)
+*.csv
+!data.nosync/*.zip
+
+# Python
+__pycache__/
+*.pyc
