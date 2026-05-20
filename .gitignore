@@ -1,10 +1,3 @@
-# Database files (large files)
-*.db
-*.duckdb
-*.duckdb.wal
-*.sqlite
-*.sqlite3
-
 # Mac system files
 .DS_Store
 .AppleDouble
@@ -14,10 +7,17 @@ data.nosync/.DS_Store
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Large data files (keep only the main zip)
+# Generated outputs (BLOCKED)
+*.html
 *.csv
+
+# Large data files (keep folder structure)
+!data.nosync/
 !data.nosync/*.zip
 
 # Python
 __pycache__/
 *.pyc
+
+/.quarto/
+**/*.quarto_ipynb
