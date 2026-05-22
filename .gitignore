@@ -8,13 +8,12 @@ data.nosync/.DS_Store
 *.ipynb_checkpoints
 
 # Quarto generated files
-online_retail_uci_files/
 *.html
 *.csv
 
 # Large data files (keep folder structure)
-!data.nosync/
-!data.nosync/*.zip
+!data/
+!data/*.zip
 
 # Python
 __pycache__/
@@ -22,3 +21,6 @@ __pycache__/
 
 /.quarto/
 **/*.quarto_ipynb
+
+# Requirements
+requirements.txt
